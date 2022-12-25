@@ -1,0 +1,21 @@
+body {
+	background-color: black;
+	color: #7FFF00;
+}
+.passwordEnter {
+  font-family: "Lucida Console", "Courier New", monospace;
+  opacity: 1;
+  background-color: black;
+  color: #7FFF00;
+  border: 1px solid #7FFF00;
+}
+.main {
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	font-family: "Lucida Console", "Courier New", monospace;
+}
