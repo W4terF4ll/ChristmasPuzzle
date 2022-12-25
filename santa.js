@@ -1,4 +1,4 @@
-var firstDisplayTop = "Hello Mia :>";
+var firstDisplayTop = "Hello Mia :>. Please, type in all lowercase.";
 var firstDisplayBottom = "Your first clue is: in the red box.";
 var secondDisplayTop = "Good job on finding those digits!";
 var secondDisplayBottom = "Your next clue is: 776f6f627920646f6f6279";
@@ -219,11 +219,11 @@ function submitFirstPassword() {
 	} else {
 		document.getElementById("passwordEnter").value = "";
 		document.getElementById("verify").style.color = "red";
-		document.getElementById("verify").innerHTML = "Incorrect.";
+		document.getElementById("verify").innerHTML = "Incorrect. (Circles = Order)";
 		document.getElementById("verify").style.display = "block";
 		setTimeout(function(){
 			document.getElementById("verify").style.display = "none";
-		}, 3000)
+		}, 5000)
 	}
 }
 
