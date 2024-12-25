@@ -265,7 +265,7 @@ function submitThirdPassword() {
 	} else {
 		document.getElementById("passwordEnter").value = "";
 		document.getElementById("verify").style.color = "red";
-		document.getElementById("verify").innerHTML = "Incorrect. Maybe try writing it down...";
+		document.getElementById("verify").innerHTML = "Incorrect. Look at the back... (no spaces, all lowercase)";
 		document.getElementById("verify").style.display = "block";
 		setTimeout(function(){
 			document.getElementById("verify").style.display = "none";
@@ -288,7 +288,7 @@ function submitFourthPassword() {
 	} else {
 		document.getElementById("passwordEnter").value = "";
 		document.getElementById("verify").style.color = "red";
-		document.getElementById("verify").innerHTML = "Incorrect. No spaces, all lowercase... Minecraft enchanting table...";
+		document.getElementById("verify").innerHTML = "Incorrect. Maybe try writing it down...";
 		document.getElementById("verify").style.display = "block";
 		setTimeout(function(){
 			document.getElementById("verify").style.display = "none";
@@ -311,7 +311,7 @@ function submitFifthPassword() {
 	} else {
 		document.getElementById("passwordEnter").value = "";
 		document.getElementById("verify").style.color = "red";
-		document.getElementById("verify").innerHTML = "Incorrect.";
+		document.getElementById("verify").innerHTML = "Incorrect. No spaces, all lowercase... Minecraft enchanting table...";
 		document.getElementById("verify").style.display = "block";
 		setTimeout(function(){
 			document.getElementById("verify").style.display = "none";
