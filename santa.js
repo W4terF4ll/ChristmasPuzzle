@@ -8,7 +8,7 @@ var fourthDisplayTop = "WOW! Good job with that one... You're getting closer..."
 var fourthDisplayBottom = "Your next clue is: To ask Aidan (again...)";
 var fifthDisplayTop = "Nice listening skills!";
 var fifthDisplayBottom = "Your final clue is: To ask Aidan (AGAIN!!!)";
-var finalDisplayTop = "YOU DID IT!!! Great work detective Mia...";
+var finalDisplayTop = "YOU DID IT!!! Great work detective Mia!!!!!!!";
 var finalDisplayBottom = "Now, whisper to Aidan the final top-secret code word: woobydoowoybeyloo";
 var countTicker = true;
 
